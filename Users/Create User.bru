@@ -1,0 +1,20 @@
+meta {
+  name: Create User
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{BASE_URL}}/secure/users/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Suiiaaa",
+    "username": "novi2anand",
+    "email": "zane.22722@gmail.com",
+    "created_by": "02cf0f69-55bb-4ff7-8efd-9fc06353fec5"
+  }
+}
