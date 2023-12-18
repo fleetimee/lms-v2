@@ -1,0 +1,15 @@
+meta {
+  name: List Knowledge
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{BASE_URL}}/secure/knowledge/v2?visibility=0032
+  body: none
+  auth: none
+}
+
+query {
+  visibility: 0032
+}

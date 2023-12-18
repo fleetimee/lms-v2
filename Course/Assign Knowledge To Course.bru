@@ -1,0 +1,27 @@
+meta {
+  name: Assign Knowledge To Course
+  type: http
+  seq: 4
+}
+
+patch {
+  url: {{BASE_URL}}/secure/course/20/knowledges
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "knowledge": [
+      {
+        "id_knowledge": 5
+      },
+          {
+        "id_knowledge": 6
+      },
+      {
+        "id_knowledge": 7
+      }
+    ]
+  }
+}
