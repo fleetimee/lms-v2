@@ -1,0 +1,16 @@
+meta {
+  name: List Exercise Operator
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{BASE_URL}}/secure/quiz?page=1&limit=1
+  body: none
+  auth: none
+}
+
+query {
+  page: 1
+  limit: 1
+}
