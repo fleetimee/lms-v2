@@ -1,0 +1,17 @@
+meta {
+  name: List Knowledge By Operator
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{BASE_URL}}/secure/knowledge/v2
+  body: none
+  auth: none
+}
+
+query {
+  ~from: 12-18-2023
+  ~to: 12-18-2023
+  ~visibility: 0032
+}

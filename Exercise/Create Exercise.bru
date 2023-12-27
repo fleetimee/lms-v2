@@ -1,0 +1,21 @@
+meta {
+  name: Create Exercise
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{BASE_URL}}/secure/quiz
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "quiz_title": "SQLearn",
+    "quiz_desc": "Haptic",
+    "quiz_type": "0021",
+    "created_by": "02cf0f69-55bb-4ff7-8efd-9fc06353fec5",
+    "updated_by": "02cf0f69-55bb-4ff7-8efd-9fc06353fec5"
+  }
+}
