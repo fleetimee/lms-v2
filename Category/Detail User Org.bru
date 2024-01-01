@@ -1,0 +1,15 @@
+meta {
+  name: Detail User Org
+  type: http
+  seq: 8
+}
+
+get {
+  url: {{BASE_URL}}/secure/users/org
+  body: none
+  auth: none
+}
+
+query {
+  ~email: novian.andika@students.amikom.ac.id
+}
