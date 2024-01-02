@@ -5,9 +5,14 @@ meta {
 }
 
 get {
-  url: {{BASE_URL}}/secure/category
+  url: {{BASE_URL}}/secure/category?from=2023-08-22&to=2023-08-22
   body: none
   auth: none
+}
+
+query {
+  from: 2023-08-22
+  to: 2023-08-22
 }
 
 docs {
